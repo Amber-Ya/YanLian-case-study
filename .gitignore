@@ -4,3 +4,7 @@ __pycache__/
 .DS_Store
 *.rlp
 *.lp
+.codex_tmp/
+.~*
+~$*
+20260727调研资料/

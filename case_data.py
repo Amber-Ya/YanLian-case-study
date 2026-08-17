@@ -509,6 +509,81 @@ SECONDARY_UNIT_SIDE_YIELDS = [
     {'unit': '苯乙烯装置400单元', 'side_name': '损失量', 'material_pool': '损失', 'yield_percent': 0.795755968169761},
 ]
 
+# Yan'an Petrochemical Plant (延石化) December 2025 operating report.
+# Product yields use monthly product tonnage / monthly reported total feed.
+# They are kept separate from the Yanlian rows so the source and calibration
+# basis remain auditable.
+YANSHIHUA_SECONDARY_UNIT_SIDE_YIELDS = [
+    {'unit': '120万重整装置', 'side_name': '液化气', 'material_pool': '液化气', 'yield_percent': 6188 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '重整汽油', 'material_pool': '重整汽油', 'yield_percent': 72842 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '重整轻汽油', 'material_pool': '重整轻汽油', 'yield_percent': 23079 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '精制油', 'material_pool': '精制油', 'yield_percent': 507 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': 'C6馏分', 'material_pool': 'C6馏分', 'yield_percent': 17318 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '含氢气体', 'material_pool': '氢气', 'yield_percent': 4105 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '含硫燃料气', 'material_pool': '含硫燃料气', 'yield_percent': 482 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '燃料气', 'material_pool': '燃料气', 'yield_percent': 3787 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '污油', 'material_pool': '污油', 'yield_percent': 33 / 128791 * 100},
+    {'unit': '120万重整装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 450 / 128791 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '柴油', 'material_pool': '精制柴油', 'yield_percent': 64655 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '粗汽油', 'material_pool': '粗汽油', 'yield_percent': 10214 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '液化气', 'material_pool': '液化气', 'yield_percent': 3457 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '高低气分', 'material_pool': '轻烃', 'yield_percent': 79 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '干气', 'material_pool': '干气', 'yield_percent': 94 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '反冲洗污油', 'material_pool': '污油', 'yield_percent': 52 / 78582 * 100},
+    {'unit': '140万柴油加氢装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 31 / 78582 * 100},
+    {'unit': '20万苯抽提装置', 'side_name': '苯', 'material_pool': '石油苯', 'yield_percent': 5552 / 17318 * 100},
+    {'unit': '20万苯抽提装置', 'side_name': '非芳烃', 'material_pool': '非芳烃', 'yield_percent': 11673 / 17318 * 100},
+    {'unit': '20万苯抽提装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 93 / 17318 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '燃料气', 'material_pool': '燃料气', 'yield_percent': 1040 / 58343 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '丙烯', 'material_pool': '丙烯', 'yield_percent': 15366 / 58343 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '戊烷馏分', 'material_pool': '戊烷', 'yield_percent': 466 / 58343 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '丙烷', 'material_pool': '丙烷', 'yield_percent': 7710 / 58343 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '气分碳四', 'material_pool': 'C4', 'yield_percent': 33598 / 58343 * 100},
+    {'unit': '60万气体分馏装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 163 / 58343 * 100},
+    {'unit': '20万聚丙烯装置', 'side_name': '聚丙烯粒料', 'material_pool': '聚丙烯', 'yield_percent': 18886 / 19514 * 100},
+    {'unit': '20万聚丙烯装置', 'side_name': '粉尘料', 'material_pool': '聚丙烯', 'yield_percent': 24 / 19514 * 100},
+    {'unit': '20万聚丙烯装置', 'side_name': '回收气OG', 'material_pool': 'OG气', 'yield_percent': 467 / 19514 * 100},
+    {'unit': '20万聚丙烯装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 137 / 19514 * 100},
+    {'unit': '12万MTBE装置', 'side_name': 'MTBE', 'material_pool': 'MTBE', 'yield_percent': 6538 / 35401 * 100},
+    {'unit': '12万MTBE装置', 'side_name': '醚后C4', 'material_pool': '醚后C4', 'yield_percent': 28789 / 35401 * 100},
+    {'unit': '12万MTBE装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 74 / 35401 * 100},
+    {'unit': '60万精制装置', 'side_name': '精制液化气', 'material_pool': '精制液化气', 'yield_percent': 57335 / 57350 * 100},
+    {'unit': '60万精制装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 15 / 57350 * 100},
+    {'unit': '硫磺回收装置', 'side_name': '粗硫磺', 'material_pool': '粗硫磺', 'yield_percent': 412 / 1652 * 100},
+    {'unit': '硫磺回收装置', 'side_name': '烟道气', 'material_pool': '烟道气', 'yield_percent': 1240 / 1652 * 100},
+    {'unit': '硫磺精制装置', 'side_name': '精制硫磺', 'material_pool': '精制硫磺', 'yield_percent': 292 / 342 * 100},
+    {'unit': '硫磺精制装置', 'side_name': '污水', 'material_pool': '污水', 'yield_percent': 50 / 342 * 100},
+    {'unit': '180万汽油精制装置', 'side_name': '精制汽油', 'material_pool': '精制汽油', 'yield_percent': 128090 / 129722 * 100},
+    {'unit': '180万汽油精制装置', 'side_name': '燃料气', 'material_pool': '燃料气', 'yield_percent': 1494 / 129722 * 100},
+    {'unit': '180万汽油精制装置', 'side_name': '污油', 'material_pool': '污油', 'yield_percent': 86 / 129722 * 100},
+    {'unit': '180万汽油精制装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 52 / 129722 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '精制柴油', 'material_pool': '精制柴油', 'yield_percent': 133093 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '石脑油', 'material_pool': '石脑油', 'yield_percent': 5301 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '轻烃', 'material_pool': '轻烃', 'yield_percent': 2770 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '富气', 'material_pool': '富气', 'yield_percent': 885 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '高低气分', 'material_pool': '液化气', 'yield_percent': 361 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '污油', 'material_pool': '污油', 'yield_percent': 1088 / 143531 * 100},
+    {'unit': '240万柴油加氢装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 33 / 143531 * 100},
+    {'unit': '20万烷基化装置', 'side_name': '异辛烷组分', 'material_pool': '烷基化油', 'yield_percent': 19752 / 31693.2 * 100},
+    {'unit': '20万烷基化装置', 'side_name': '烷基化碳四', 'material_pool': '烷基化C4', 'yield_percent': 6730 / 31693.2 * 100},
+    {'unit': '20万烷基化装置', 'side_name': '正丁烷', 'material_pool': '正丁烷', 'yield_percent': 4251 / 31693.2 * 100},
+    {'unit': '20万烷基化装置', 'side_name': '干气', 'material_pool': '干气', 'yield_percent': 642 / 31693.2 * 100},
+    {'unit': '20万烷基化装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 318.2 / 31693.2 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '丙烯', 'material_pool': '丙烯', 'yield_percent': 11369 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '富异丁烯碳四', 'material_pool': '富异丁烯C4', 'yield_percent': 31814 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '再生碳四', 'material_pool': '再生C4', 'yield_percent': 5702 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '正丁烷', 'material_pool': '正丁烷', 'yield_percent': 6665 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '轻污油', 'material_pool': '轻污油', 'yield_percent': 0.0},
+    {'unit': '30万混合脱氢装置', 'side_name': '燃料气', 'material_pool': '燃料气', 'yield_percent': 1922 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '氢气', 'material_pool': '氢气', 'yield_percent': 6.2 / 58392 * 100},
+    {'unit': '30万混合脱氢装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 913.8 / 58392 * 100},
+    {'unit': '25万MTBE装置', 'side_name': 'MTBE', 'material_pool': 'MTBE', 'yield_percent': 22620 / 45376 * 100},
+    {'unit': '25万MTBE装置', 'side_name': '醚后碳四', 'material_pool': '醚后C4', 'yield_percent': 22395 / 45376 * 100},
+    {'unit': '25万MTBE装置', 'side_name': '加工损失', 'material_pool': '损失', 'yield_percent': 361 / 45376 * 100},
+]
+
+SECONDARY_UNIT_SIDE_YIELDS.extend(YANSHIHUA_SECONDARY_UNIT_SIDE_YIELDS)
+
 
 def _aggregate_secondary_yields(side_yields):
     aggregated = {}
@@ -535,7 +610,21 @@ TARGET_LOADS = {'100万催化装置': 2638.3870967741937,
  '聚丙烯装置': 288.0,
  '苯乙烯装置300单元': 164.74193548387098,
  '苯乙烯装置400单元': 158.09677419354838,
- '醋酸仲丁酯装置': 201.0}
+ '醋酸仲丁酯装置': 201.0,
+ '120万重整装置': 128791 / 31,
+ '140万柴油加氢装置': 78582 / 31,
+ '20万苯抽提装置': 17318 / 31,
+ '60万气体分馏装置': 58343 / 31,
+ '20万聚丙烯装置': 19514 / 31,
+ '12万MTBE装置': 35401 / 31,
+ '60万精制装置': 57350 / 31,
+ '硫磺回收装置': 1652 / 31,
+ '硫磺精制装置': 342 / 31,
+ '180万汽油精制装置': 129722 / 31,
+ '240万柴油加氢装置': 143531 / 31,
+ '20万烷基化装置': 31693.2 / 31,
+ '30万混合脱氢装置': 58392 / 31,
+ '25万MTBE装置': 45376 / 31}
 
 UNIT_FEEDS = {
     '300万常压装置': ['YCO', 'RCO'],
@@ -554,6 +643,23 @@ UNIT_FEEDS = {
     '苯乙烯装置400单元': ['脱氢液'],
 }
 
+YANSHIHUA_UNIT_FEEDS = {
+    '120万重整装置': ['常压石脑油'],
+    '140万柴油加氢装置': ['催化柴油', '氢气', '轻烃'],
+    '20万苯抽提装置': ['C6馏分'],
+    '60万气体分馏装置': ['精制液化气'],
+    '20万聚丙烯装置': ['丙烯'],
+    '12万MTBE装置': ['C4', '甲醇原料'],
+    '60万精制装置': ['液化气'],
+    '硫磺回收装置': ['酸性气'],
+    '硫磺精制装置': ['粗硫磺'],
+    '180万汽油精制装置': ['催化汽油', '氢气', '戊烷'],
+    '240万柴油加氢装置': ['常压直馏柴油', '氢气'],
+    '20万烷基化装置': ['C4', '氢气'],
+    '30万混合脱氢装置': ['丙烷', '饱和液化气', '烷基化C4', '醚后C4'],
+    '25万MTBE装置': ['富异丁烯C4', '再生C4', '甲醇原料'],
+}
+
 FEED_RATIOS = {'100万催化装置': {'1#渣油': 1.0},
  '200万催化装置': {'1#渣油': 1.0},
  '50万航煤加氢装置': {'航煤原料': 1.0},
@@ -561,5 +667,40 @@ FEED_RATIOS = {'100万催化装置': {'1#渣油': 1.0},
  '乙苯装置200单元': {'净化干气': 0.6336616403730497, '石油苯': 0.3663383596269502},
  '苯乙烯装置300单元': {'乙苯': 1.0},
  '醋酸仲丁酯装置': {'醋酸原料': 0.21316165951359084, '醚后C4': 0.7868383404864091}}
+
+YANSHIHUA_FEED_RATIOS = {
+ '120万重整装置': {'常压石脑油': 1.0},
+ '140万柴油加氢装置': {'催化柴油': 74282 / 78582, '氢气': 1530 / 78582, '轻烃': 2770 / 78582},
+ '20万苯抽提装置': {'C6馏分': 1.0},
+ '60万气体分馏装置': {'精制液化气': 1.0},
+ '20万聚丙烯装置': {'丙烯': 1.0},
+ '12万MTBE装置': {'C4': 33299 / 35401, '甲醇原料': 2102 / 35401},
+ '60万精制装置': {'液化气': 1.0},
+ '硫磺回收装置': {'酸性气': 1.0},
+ '硫磺精制装置': {'粗硫磺': 1.0},
+ '180万汽油精制装置': {'催化汽油': 129316 / 129722, '氢气': 393 / 129722, '戊烷': 13 / 129722},
+ '240万柴油加氢装置': {'常压直馏柴油': 143241 / 143531, '氢气': 290 / 143531},
+ '20万烷基化装置': {'C4': 31687 / 31693.2, '氢气': 6.2 / 31693.2},
+ '30万混合脱氢装置': {'丙烷': 8518 / 58392, '饱和液化气': 13546 / 58392, '烷基化C4': 14674 / 58392, '醚后C4': 21654 / 58392},
+ '25万MTBE装置': {'富异丁烯C4': 31581 / 45376, '再生C4': 5702 / 45376, '甲醇原料': 8093 / 45376}}
+
+# Capacity adjustments are applied only by the collaborative model.  The
+# original Yanlian baseline continues to use UNIT_CAPACITIES unchanged.
+REPORT_CALIBRATED_CAPACITY_OVERRIDES = {
+    '120万重整装置': {'initial': 128791 / 31},
+    '140万柴油加氢装置': {'initial': 78582 / 31},
+    '20万苯抽提装置': {'initial': 17318 / 31},
+    '60万气体分馏装置': {'initial': 58343 / 31, 'max_load': 1950.0},
+    '20万聚丙烯装置': {'initial': 19514 / 31, 'max_load': 680.0},
+    '12万MTBE装置': {'initial': 35401 / 31, 'max_load': 1200.0},
+    '60万精制装置': {'initial': 57350 / 31, 'max_load': 1950.0},
+    '硫磺回收装置': {'initial': 1652 / 31, 'rated': 1652 / 31, 'min_load': 0.0, 'max_load': 60.0},
+    '硫磺精制装置': {'initial': 342 / 31, 'min_load': 7.7},
+    '180万汽油精制装置': {'initial': 129722 / 31},
+    '240万柴油加氢装置': {'initial': 143531 / 31},
+    '20万烷基化装置': {'initial': 31693.2 / 31, 'min_load': 1000.0},
+    '30万混合脱氢装置': {'initial': 58392 / 31},
+    '25万MTBE装置': {'initial': 45376 / 31, 'rated': 45376 / 31, 'max_load': 1600.0},
+}
 
 WARNINGS = []
